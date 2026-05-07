@@ -1,0 +1,17 @@
+
+//Swapping with using 3rd 
+
+class Main {
+    public static void main(String[] args) {
+       int power,ninja,bottle;
+       power=20;
+       ninja=30;
+      System.out.println("power="+power+" ninja="+ninja);
+       bottle=power;
+       power=ninja;
+       ninja=power;
+       System.out.println("power="+power+" ninja="+ninja);
+       
+    }
+}
+
