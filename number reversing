@@ -4,11 +4,12 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
     
-    int last,rev=0;
+    int last,num,rev=0;
     System.out.println("Value of n:");
     Scanner s=new Scanner(System.in);
     int n = s.nextInt();
     System.out.println("N before reversing:"+n);
+    num=n;
     while(n>0)
     {
         last=n%10;
@@ -17,5 +18,11 @@ class Main {
         
     }
      System.out.println("After reversing:"+rev);
+     if(rev==num){
+         System.out.println("it is palindrome");
+     }else
+     {
+         System.out.println("It is not palindrome");
+     }
     }
 }
